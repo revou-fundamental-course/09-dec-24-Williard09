@@ -3,19 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel ="stylesheet" href="css/styles.css">
+    <title> Travel Sederhana  </title>
+    <link rel ="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <header class="main-header">
-            <div class="home-icon"></div>
-            
-            <nav>
-                <a href="#">Home</a>
-                <a href="#our-package-section">Our Packages</a>
-                <a href="#">Call Us</a>
-            </nav>
+    <header class="main-header">
+        <div class="home-icon"></div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#our-package-section">Our Packages</a>
+            <a href="#contact-us-section">Call Us</a>
+        </nav>
     </header>
+
+    <hr />
+
+    <main>
+        <header class="content-header">
+            <h1>Your Trusted Travel Agent</h1>
+            <h3>Your Happiness is Our Happiness</h3>
+            <p class="paragraph-header"> Pesan tiket bus online dan travel semudah belanja online tanpa perlu ke agen tiket bus. Jadwal bus travel, trayek, tempat keberangkatan, fasilitas, dan harga tiket .</p>
+        </header>
+        <!-- Home Content -->
+        <section class="main-container">
+            <!-- Banner AutoSlide Content -->
+            <aside class="main-item">
+                <div class="banner-img"></div>
+            </aside>
+            <!-- Form Contact Us -->
+            <form class="main-item">
+                <h2 class="h2-item"> Contact Us </h2>
+                <div class="container">
+                    <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                </div>
+                <div class="containers">
+                    <label for="fname"> Your name : </label>
+                    <br>
+                    <input type="text" id="fname" name="fname" placeholder="Masukkan nama anda!" required>
+                    <br><br>
+                    <label for="lname"> Email Adress :</label>
+                    <br>
+                    <input type="text" id="lname" name="lname">
+                    <br><br>
+                    <label for="lname"> Place That You Interest to Travel : </label>
+                    <br>
+                    <input type="text" id="interest" name="interest">
+                    <br>
+                    <br>
+                </div>
+                <button> SUBMIT </button>
+
+            </form>
+        </section>
+
+        <!-- Our Packages Content -->
+        <section id="our-package-section">
+            <header class="content-header our-packages-header">
+                <h1>Our Packages</h1>
+            </header>
+        </section>
+
+        <section id="contact-us-section">
+            <header class="content-header contact-us-header">
+                <h1> Call Us </h1>
+            </header>
+        </section>
+    </main>
+    <footer>
+        <span>Made by Williard@2024</span>
+    </footer>
+    <script src="js/script.js"></script>
+
 </body>
 </html>
