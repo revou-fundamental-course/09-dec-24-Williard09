@@ -35,10 +35,12 @@ nav a:hover {
 
 .banner-img {
     height: 320px;
+    width: 640px;
     background-image: url(https://picsum.photos/750);
     background-size: cover;
     background-position: center;
 }
+
 
 .content-header {
     text-align: center;
@@ -67,16 +69,96 @@ form {
     text-align: center;
 }
 
-.our-packages-header {
-    background-color: aliceblue;
-    margin-top: 24px;
-    padding-top: 64px;
-    padding-bottom: 64px;
+
+.our-package-section {
+    
 }
 
-footer {
-    margin-top: 24px;
+.our-packages-header {
+    background-color: aliceblue;
+    margin-top: 21px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 50px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #f8f9fa;
+    padding: 3rem 0 1rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section {
+    margin-bottom: 2rem;
+}
+
+.footer-section h3 {
+    color: #0077B6;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-section p {
+    color: #6c757d;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: #6c757d;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #0077B6;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-icon {
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #0077B6;
+}
+
+.footer-bottom {
     text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.footer-bottom p {
+    color: #6c757d;
+    font-size: 0.9rem;
 }
 
 .container {
@@ -84,13 +166,34 @@ footer {
     text-align: center;    
 }
 
-.containers {
-    
+
+button{
+    border: 1px solid rgb(152, 169, 205);
+    border-radius: 4px;
+    padding: 8px 20px 8px;
+    background-color: rgb(236, 236, 243);
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
 }
 
-button {
-    background-color: black;
-    color: white;
+.youtube-packages {
+    height: 345;
+}
+
+.package-content{
+    display:flex;
+}
+
+.destination-section {
+    padding: 15px;
+    display: flex;
+}
+
+.destination {
+    padding: 15px;
+    display: flex;
 }
 
 /* media screen handphone */

@@ -22,6 +22,16 @@ function validateForm() {
     console.log('validateForm executed');
 }
 
+function validateForm(email) {
+    var email = document.getElementById("email").value;
+    if (email!= "") {
+        return True;
+    }
+    else{
+        alert('Anda harus mengisi data dengan lengkap !');
+    }
+}
+
 function nextSlide() {
     showBanner(indexSlide += 1);
 }
