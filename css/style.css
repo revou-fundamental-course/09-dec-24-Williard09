@@ -71,7 +71,7 @@ form {
 
 
 .our-package-section {
-    
+    background-color: aliceblue;
 }
 
 .our-packages-header {
@@ -166,6 +166,7 @@ form {
     text-align: center;    
 }
 
+/* ini untuk our packages */
 
 button{
     border: 1px solid rgb(152, 169, 205);
@@ -178,8 +179,8 @@ button{
     display: flex;
 }
 
-.youtube-packages {
-    height: 345;
+.youtube {
+    justify-self: center;
 }
 
 .package-content{
